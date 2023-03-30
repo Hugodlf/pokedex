@@ -1,9 +1,9 @@
-import MyTitle from "./MyTitle";
 
+import Card from "./components/PokemonCard";
 function App() {
   return (
     <div>
-      <MyTitle/>
+      <Card/>
     </div>
   );
 }
