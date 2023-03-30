@@ -16,9 +16,9 @@ const PokemonCard = () => {
 
     return (
         <div>
-            <figure>
-               {pokemon.imgSrc ? <img src={pokemon.imgSrc}  alt="bulbasaur" ></img> : <p>???</p>}
-                
+            <figure className="card">
+               {pokemon.imgSrc ? <img  src={pokemon.imgSrc}  alt="bulbasaur" className="cardImg"></img> : <p>???</p>}
+              
                 <figcaption>{pokemon.name}</figcaption>
             </figure>
 
