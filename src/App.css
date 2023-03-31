@@ -1,4 +1,4 @@
-.card{
+.card {
   width: 200px;
   padding: 1rem;
   background-color: lightgreen;
@@ -9,11 +9,23 @@
   text-align: center;
   text-shadow: 0px 0px 5px gray;
 }
-.cardImg{
+
+.cardImg {
   width: 100%;
   height: auto;
   margin-bottom: 0.5rem;
   background-color: white;
   border-radius: inherit;
   box-shadow: inherit;
+}
+
+.divBtc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btcPS {
+  background-color: red;
+  color: white;
+  border: 3px solid black;
 }
