@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const NavBar = ({pokemonIndex, setPokemonIndex, pokemonList}) => {
    
-  
-
+ 
   const handlePrecedent = () => {
     setPokemonIndex(pokemonIndex - 1)
   }
