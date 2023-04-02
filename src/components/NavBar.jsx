@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+
 
 const NavBar = ({pokemonIndex, setPokemonIndex, pokemonList}) => {
-   
-  
+ 
 
   const handlePrecedent = () => {
     setPokemonIndex(pokemonIndex - 1)
@@ -10,6 +10,8 @@ const NavBar = ({pokemonIndex, setPokemonIndex, pokemonList}) => {
   const handleSuivant = () => {
     setPokemonIndex(pokemonIndex + 1)
   }
+
+  //pokemonList[pokemonIndex] === pokemonList[3] ? alert('pika pikachu !!!') : null
 
     return (
         <div className='divBtc'>

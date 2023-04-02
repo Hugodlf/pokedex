@@ -7,6 +7,7 @@ import { useState } from "react";
 const App = () => {
 
   
+  
   const [pokemonIndex, setPokemonIndex] = useState(0);
 
   return (
@@ -43,5 +44,7 @@ const pokemonList = [
     name: "mew",
   },
 ];
+
+
 
 export default App;
